@@ -1,0 +1,21 @@
+{
+"name": "latlong-api",
+"version": "1.0.0",
+"description": "CRUD API for Latitude & Longitude using Node.js and MongoDB Atlas",
+"main": "src/server.js",
+"scripts": {
+"start": "node src/server.js",
+"dev": "nodemon src/server.js"
+},
+"keywords": ["nodejs", "express", "mongodb", "crud", "latlong"],
+"author": "",
+"license": "MIT",
+"dependencies": {
+"dotenv": "^16.4.5",
+"express": "^4.19.2",
+"mongoose": "^8.4.0"
+},
+"devDependencies": {
+"nodemon": "^3.1.4"
+}
+}
